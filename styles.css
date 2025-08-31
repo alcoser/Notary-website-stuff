@@ -1,0 +1,25 @@
+body{font-family:system-ui,sans-serif;margin:0;color:#333;background:#fff}
+header{text-align:center;padding:2rem 1rem;border-bottom:4px solid #d4af37}
+h1{font-size:2.2rem;margin:.2rem 0 .4rem}
+h2{font-size:1.8rem;margin:0 0 1rem;display:inline-block;border-bottom:2px solid #d4af37;padding-bottom:.25rem}
+section{padding:2rem 1rem;text-align:center}
+a{color:#d4af37;text-decoration:none;font-weight:700}
+a:hover{color:#333;background:#d4af37;padding:.1rem .35rem;border-radius:4px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;text-align:left;max-width:800px;margin:0 auto}
+ul{list-style:none;padding:0;margin:0}
+li{padding:.3rem 0}
+form{max-width:500px;margin:0 auto;display:flex;flex-direction:column;gap:.75rem}
+input,textarea{padding:.5rem;border:1px solid #ccc;border-radius:6px}
+button{padding:.75rem;background:#d4af37;border:none;border-radius:6px;font-size:1rem;font-weight:700;cursor:pointer}
+button:hover{background:#333;color:#fff}
+footer{text-align:center;padding:1rem;border-top:4px solid #d4af37}
+/* blog */
+.blog-list{max-width:900px;margin:0 auto;text-align:left}
+.post-card{border:1px solid #eee;border-radius:12px;padding:16px;margin:12px 0}
+.post-card h3{margin:0 0 6px}
+.meta{color:#666;font-size:.9rem;margin-bottom:6px}
+.excerpt{margin:6px 0 0}
+.nav{display:flex;gap:16px;justify-content:center;margin-top:.5rem}
+.nav a{font-weight:700}
+.breadcrumbs{font-size:.9rem;color:#666;margin-bottom:8px}
+.container{max-width:1000px;margin:0 auto;padding:0 16px}
